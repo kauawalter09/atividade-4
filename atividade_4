@@ -1,0 +1,211 @@
+//////////////////
+desenvolvido com gustavo brito
+//////////////////
+
+atividade 1
+/////////////
+void main()
+{
+  
+double nota1 = 10;
+  
+double nota2 = 10;
+  
+double nota3 = 10;
+
+ 
+
+String a = 'A';
+  
+String b = 'B';
+  
+String c = 'C';
+  
+  
+
+switch(a)
+  {
+
+      case 'A' :
+ print('A média aritmética é: ${(nota1 + nota2 + nota3) / 3}');
+
+      break;
+     
+ case 'B':print('A média ponderada é: ${((nota1 * 5) + (nota2 * 3) + (nota3 * 2)) /10}');
+
+      break;
+      
+case 'C':print('A média harmônica é: ${(3)/((1/nota1)+(1/nota2)+(1/nota3))}');
+
+      break;
+      
+default:print('Não foi possivel identificar!');
+  
+}
+
+}
+
+atividade 2
+/////////////
+import 'dart:math';
+
+
+
+void main() {
+  
+
+List<int> lista = [18,19,20];
+
+  
+  print ('O menor numero da lista é ${lista.reduce(min)}');
+ 
+ 
+
+}
+
+atividade 3
+/////////////
+void main() {
+  
+ valor(-5);
+  
+}
+
+void valor(num n1){
+  print(n1.isNegative);  
+  
+  }
+
+
+atividade 4
+/////////////
+void main(){
+ media(10, 8, 6);
+
+}
+
+
+
+void media(double v1, double v2, double v3){
+
+  double res = v1 + v2 + v3 / 3;
+
+  print(res);
+
+}
+
+atividade 5
+/////////////
+void main() {
+ 
+  
+
+double resultado = calculo (30, 10);
+ 
+ print(resultado);
+ 
+ 
+}
+
+
+
+
+double calculo(double a, double b ){
+  
+double res = a + b;
+  
+  return res;
+}
+
+atividade 6
+/////////////
+void main() {
+  
+ idade(12);
+  
+}
+
+void idade(num n1){
+  if(n1 <= 7){
+  print('infantil a');
+  }else if(n1 <= 10){
+  print('infantil b');   
+  }else if(n1 <= 13){
+    print('juvenil a');
+  }else if(n1 <= 17){
+    print('juvenil b');
+  }else if(n1 >= 18){
+    print('adulto');
+  }
+  
+}
+
+atividade 7
+/////////////
+void main() {
+ double algumaCoisa = valor(5);
+  print(algumaCoisa);
+}
+
+double valor(num n1) {
+  if(n1 % 2 == 0){
+    return 1;
+
+  }else{
+    return 0;
+
+  }
+}
+
+
+
+atividade 8
+/////////////
+void main(){
+  calculos(10, 2);
+  print(calculos);
+}
+
+ void calculos(double v1, double v2){
+   double soma = v1 - v2;
+   print(soma);
+   double rsc1 = v2 * 2;
+   double sub = v1 - rsc1;
+   print(sub);
+   double quadrado2 = v1 * 2;
+   print(quadrado2);
+   double triplo = soma * 3;
+   print(triplo);
+   double metade = triplo / 2;
+   print(metade);
+   print(v1);
+    
+}
+
+atividade 9
+/////////////
+void main() {
+  
+ 
+valores(5, 6);
+  
+
+}
+
+void valores(num n1, num n2){
+
+  if(n1 < n2){
+  
+print('5, 6');
+
+  }else if(n1 > n2){
+
+  print('6, 5');
+   
+  }else if(n1 == n2){
+
+    print('são iguais');
+  
+}
+
+}
